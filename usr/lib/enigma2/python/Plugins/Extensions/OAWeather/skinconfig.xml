@@ -1,0 +1,17 @@
+<skin>
+<screen name="WeatherSettingsViewNew" title="Weather Plugin Setup" position="center,center" size="900,630" resolution="1920,1080" backgroundColor="background" flags="wfNoBorder">
+	<eLabel text="Configure OA-Weather" position="50,10" size="600,44" font="Regular; 36" halign="left" valign="center" backgroundColor="background" foregroundColor="grey" borderColor="black" borderWidth="2" transparent="1" zPosition="1" />
+	<widget name="config" position="50,65" size="800,450" font="Regular;32" itemHeight="45" backgroundColor="#00000000" foregroundColor="#00ffffff" transparent="1" zPosition="3" scrollbarMode="showOnDemand" />
+        <widget name="status" font="Regular; 32" position="50,520" size="800,40" foregroundColor="#00fff000" transparent="1" zPosition="3" halign="center" valign="center" />
+        <eLabel backgroundColor="#00313040" font="Regular; 27" position="690,572" size="210,50" text="Virtual KeyBoard" transparent="1" halign="left" valign="center" zPosition="2" foregroundColor="#00ffffff" />
+        <ePixmap position="10,580" zPosition="3" size="35,35" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/key_red.png" transparent="1" alphatest="blend" />
+        <ePixmap position="260,580" zPosition="3" size="35,35" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/key_green.png" transparent="1" alphatest="blend" />
+        <ePixmap position="450,580" zPosition="3" size="35,35" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/key_yellow.png" transparent="1" alphatest="blend" />
+        <ePixmap position="630,579" zPosition="3" size="53,38" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/key_ok.png" transparent="1" alphatest="blend" />
+        <widget source="key_red" render="Label" position="50,572" zPosition="5" size="200,50" font="Regular;27" halign="left" valign="center" backgroundColor="#00313040" foregroundColor="#00ffffff" transparent="1" />
+        <widget source="key_green" render="Label" position="300,572" zPosition="5" size="150,50" font="Regular;27" halign="left" valign="center" backgroundColor="#00313040" foregroundColor="#00ffffff" transparent="1" />
+        <widget source="key_yellow" render="Label" position="490,572" zPosition="5" size="150,50" font="Regular;27" halign="left" valign="center" backgroundColor="#00313040" foregroundColor="#00ffffff" transparent="1" />
+        <eLabel name="" position="0,565" size="900,2" backgroundColor="#999999" />
+	<eLabel name="" position="0,60" size="900,2" backgroundColor="#999999" />
+	</screen>
+</skin>
